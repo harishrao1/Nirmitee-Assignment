@@ -1,0 +1,69 @@
+.appBar {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #fff;
+  box-shadow: none;
+}
+
+.navbar-title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.navbar-image {
+  margin-right: 0.5rem;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.Navbar-search {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(244, 235, 235);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  justify-content: center;
+  margin-right: 5rem;
+  box-shadow: rgba(116, 113, 113, 0.944) 0px 5px 15px;
+}
+
+.searchIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  color: #555;
+}
+
+.searchInput {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.Navbar-button {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .navbar-title {
+    display: none;
+    /* font-size: 1rem; */
+  }
+
+  .Navbar-search {
+    margin-right: 1rem;
+    width: 70%;
+    /* padding: 1px; */
+  }
+  .searchIcon {
+    margin-right: 1rem;
+  }
+}

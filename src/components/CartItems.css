@@ -1,0 +1,94 @@
+.root {
+  display: flex;
+  margin-top: 15px;
+}
+
+.cover {
+  width: 151px;
+  /* height: 200px; */
+}
+
+.product-content {
+  flex: 1 0 auto;
+  padding: 8px;
+}
+.buttons {
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 10px; */
+  align-items: center;
+}
+.buttons button {
+  margin-right: 4px;
+}
+
+.buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.remove-product:hover {
+  color: red;
+  border-color: red;
+}
+
+.card-actions {
+  /* max-width: 100%;
+  flex-wrap: wrap; */
+  margin-top: 8px;
+  justify-content: space-between;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  margin: 0 4px;
+}
+
+.buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.remove-product:hover {
+  background-color: #ff1744;
+  color: #ffffff;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.card-actions .buttons {
+  display: flex;
+  align-items: center;
+}
+
+.card-actions .buttons button {
+  padding: 6px;
+}
+
+.card-actions .buttons button:hover {
+  background-color: #e35050;
+}
+
+.empty-btn {
+  margin-right: 8px;
+}
+
+.empty-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.checkout-btn:hover {
+  background-color: #43a047;
+  color: #d99393;
+}
